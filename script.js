@@ -7,7 +7,7 @@ function calculate() {
     var first = parseFloat(document.getElementById('first').value);
     var second = parseFloat(document.getElementById('second').value);
 
-    document.getElementById('squareMeter').value = (first * second) + ' Sq foot';
+    document.getElementById('squareMeter').value = (first * second) + ' Sq meter';
     document.getElementById('squareFoot').value = ((first * second) * 10.7639).toFixed(2) + ' Sq foot';
     document.getElementById('var').value = ((first * second) * 10.7639 / 9).toFixed(2) + ' Var';
     document.getElementById('inch').value = (first * 12) + ' Inch';
